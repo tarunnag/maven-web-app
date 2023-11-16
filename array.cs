@@ -14,5 +14,6 @@ class array
         }
         Array.Sort(c);
         Console.WriteLine(c[c.Length - 2]);
+        Console.WriteLine("succesfully executed");
     }
 }
