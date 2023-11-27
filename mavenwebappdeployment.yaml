@@ -6,10 +6,10 @@ metadata:
 spec:
   replicas: 2
   strategy:
-		type: RollingUpdate
-		  maxSurge: 1
-			maxUnavailable: 1
-	minReadySeconds: 60
+    type: RollingUpdate
+      maxSurge: 1
+      maxUnavailable: 1
+  minReadySeconds: 60
   selector:
     matchLabels:
       app: mavenwebapp
